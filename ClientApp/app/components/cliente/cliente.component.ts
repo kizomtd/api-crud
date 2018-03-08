@@ -4,6 +4,7 @@ import { ICliente } from '../../Models/cliente.interface';
 
 @Component({
     selector: 'app-cliente',
+    providers: [ClienteService],
     templateUrl: './cliente.component.html'
 })
 export class ClienteComponent implements OnInit {
